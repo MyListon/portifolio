@@ -1,6 +1,124 @@
-<h1>Meu Portfólio</h1>
-<p>Bem-vindo ao meu portfólio! Aqui estão meus projetos:</p>
-<ul>
-  <li><a href="site-ada/index.html">Projeto Site ADA</a></li>
-  <li><a href="amigo-secreto/index.html">Projeto Amigo Secreto</a></li>
-</ul>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Myriam Liston</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .project-card {
+            background: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid #333;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .project-card a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            color: #555;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Myriam Liston</h1>
+            <p>Desenvolvedora FullStack</p>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <section id="about-me">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou Myriam Liston, e sou apaixonada por desenvolver interfaces web e resolver problemas complexos com código. Neste portfólio, apresento alguns dos meus projetos que demonstram minhas habilidades.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Meus Projetos</h2>
+            <div class="project-card">
+                <h3>Site ADA</h3>
+                <p>Este projeto foi desenvolvido como parte do curso da ADA, focado em HTML e CSS para criar uma página web responsiva.</p>
+                <p><a href="https://myliston.github.io/siteada/" target="_blank">Ver Projeto</a></p>
+            </div>
+
+            <div class="project-card">
+                <h3>Amigo Secreto</h3>
+                <p>Uma aplicação simples para sorteio de amigo secreto, utilizando JavaScript para manipulação do DOM e lógica de sorteio.</p>
+                <p><a href="https://myliston.github.io/amigo-secreto/" target="_blank">Ver Projeto</a></p>
+            </div>
+            
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Fique à vontade para entrar em contato:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:myliston@gmail.com">myliston@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/myriam-liston-ferreira-perdiza-280a6a140/" target="_blank">https://www.linkedin.com/in/myriam-liston-ferreira-perdiza-280a6a140/</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/myliston" target="_blank">https://github.com/MyListon</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Myriam Liston &copy; 2024</p>
+    </footer>
+</body>
+</html>
