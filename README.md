@@ -16,7 +16,7 @@ Abaixo estão os projetos que fazem parte deste portfólio. Clique nos links par
 
 #### 1. Site ADA
 
-> **Link para o Projeto:** https://myliston.github.io/portifolio/site-ada/
+> **Link para o Projeto:** https://myliston.github.io/siteada/
 
 Este projeto foi desenvolvido como parte de um curso, focado em HTML e CSS para criar uma página web responsiva.
 
@@ -24,7 +24,7 @@ Este projeto foi desenvolvido como parte de um curso, focado em HTML e CSS para 
 
 #### 2. Amigo Secreto
 
-> **Link para o Projeto:** https://myliston.github.io/portifolio/amigo-secreto/
+> **Link para o Projeto:** https://myliston.github.io/amigo-secreto/
 
 Uma aplicação simples para sorteio de amigo secreto, utilizando JavaScript para manipulação do DOM e lógica de sorteio.
 
